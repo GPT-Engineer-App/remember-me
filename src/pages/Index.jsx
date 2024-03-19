@@ -35,7 +35,7 @@ const Index = () => {
       <Stack spacing={4} mb={8}>
         <Input placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
         <Textarea placeholder="Content" value={content} onChange={(e) => setContent(e.target.value)} />
-        <Button leftIcon={<FaPlus />} onClick={addNote}>
+        <Button colorScheme="red" leftIcon={<FaPlus />} onClick={addNote}>
           Add Note
         </Button>
       </Stack>
